@@ -1,0 +1,4 @@
+name: AutoUpdateTest
+version: '${project.version}'
+main: dev.voper.autoupdatetest.AutoUpdateTest
+api-version: '1.20'
