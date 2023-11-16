@@ -32,7 +32,7 @@ jobs:
           skip-version-file: true
 
       - name: Update pom.xml version
-        if: !${{ steps.changelog.outputs.skipped }}
+        if: ${{ ! steps.changelog.outputs.skipped }}
         run: |
           mvn versions:set -DnewVersion=${{ steps.changelog.outputs.version }}
           mvn versions:commit
