@@ -41,3 +41,4 @@ jobs:
           git config --global user.name 'VoperAD'
           git config --global user.email 'VoperAD@users.noreply.github.com'
           git commit -am "chore: bump project version to ${{ steps.changelog.outputs.version }} [skip ci]"
+          git push
