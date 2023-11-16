@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/VoperAD/auto-update-testing/compare/v1.2.0...v1.3.0) (2023-11-16)
+
+
+### Bug Fixes
+
+* downgrade project version ([814a1f4](https://github.com/VoperAD/auto-update-testing/commit/814a1f4927968b59e114b670a04e1a532153cb46))
+
+
+### Features
+
+* add versions maven plugin dependency ([48ad108](https://github.com/VoperAD/auto-update-testing/commit/48ad1089b3c16c6b2ab4c9f8297214cafc78fcd7))
+* another random feature ([3533bd8](https://github.com/VoperAD/auto-update-testing/commit/3533bd864880edba3451314073757b1074442186))
+* improve release workflow ([fae7629](https://github.com/VoperAD/auto-update-testing/commit/fae7629b814d4990c111432af28febcb1c6cef80))
+* random feature ([3ada4aa](https://github.com/VoperAD/auto-update-testing/commit/3ada4aa501d900a64276d0d92b361335b514e6c0))
+
+
+
 # [1.2.0](https://github.com/VoperAD/auto-update-testing/compare/v1.1.0...v1.2.0) (2023-11-16)
 
 
