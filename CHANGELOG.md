@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/VoperAD/auto-update-testing/compare/v1.3.1...v1.4.0) (2023-11-16)
+
+
+### Features
+
+* add release logic to the release workflow ([0717407](https://github.com/VoperAD/auto-update-testing/commit/0717407da9eb87ca60b2fe8d25947a216b177981))
+
+
+
 ## [1.3.1](https://github.com/VoperAD/auto-update-testing/compare/v1.3.0...v1.3.1) (2023-11-16)
 
 
@@ -50,20 +59,6 @@
 ### Features
 
 * add release workflow ([a5fb108](https://github.com/VoperAD/auto-update-testing/commit/a5fb1083a6bccb327ed358536bae7e5a0d78f1a4))
-
-
-
-# [1.0.0](https://github.com/VoperAD/auto-update-testing/compare/f047763b28b0deee16d2c0a0946b2f2339726b2b...v1.0.0) (2023-11-11)
-
-
-### Bug Fixes
-
-* master -> main in workflows/maven.yml ([3ba6e4e](https://github.com/VoperAD/auto-update-testing/commit/3ba6e4e159682b434412012f1e2b7fa72ee7de6d))
-
-
-### Features
-
-* add maven workflow ([f047763](https://github.com/VoperAD/auto-update-testing/commit/f047763b28b0deee16d2c0a0946b2f2339726b2b))
 
 
 
