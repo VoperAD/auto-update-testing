@@ -20,11 +20,13 @@ jobs:
           java-version: 17
           distribution: adopt
 
-      - name: Get project version
+      - name: Get project version and artifact id
         id: project
         run: |
           VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
           echo "version=$PROJECT_VERSION" >> $GITHUB_OUTPUT
+          ARTIFACT=$(mvn help:evaluate -Dexpression=project.artifactId -q -DforceStdout)
+          echo "artifact=$ARTIFACT" >> $GITHUB_OUTPUT
 
       - name: conventional Changelog Action
         id: changelog
@@ -43,11 +45,16 @@ jobs:
           git commit -am "chore: bump project version to ${{ steps.changelog.outputs.version }} [skip ci]"
           git push
 
+      - name: generate jar
+        if: steps.changelog.outputs.skipped == 'false'
+        run: |
+          mvn package
+
       - name: create release with last commit
         if: steps.changelog.outputs.skipped == 'false'
         uses: ncipollo/release-action@v1
         with:
-          token: ${{ secrets.CHANGELOG_RELEASE }}
           tag: ${{ steps.changelog.outputs.tag }}
           name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
+          artifacts: "target/${{ steps.project.outputs.artifact }}-${{ steps.changelog.outputs.version }}.jar"
