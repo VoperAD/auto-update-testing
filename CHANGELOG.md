@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/VoperAD/auto-update-testing/compare/v1.3.0...v1.3.1) (2023-11-16)
+
+
+### Bug Fixes
+
+* add git push at the end of the release action ([b95d954](https://github.com/VoperAD/auto-update-testing/commit/b95d95409eb5f49782f12e4c5df7d1ba9b0d7045))
+
+
+
 # [1.3.0](https://github.com/VoperAD/auto-update-testing/compare/v1.2.0...v1.3.0) (2023-11-16)
 
 
