@@ -42,3 +42,12 @@ jobs:
           git config --global user.email 'VoperAD@users.noreply.github.com'
           git commit -am "chore: bump project version to ${{ steps.changelog.outputs.version }} [skip ci]"
           git push
+
+      - name: create release with last commit
+        if: steps.changelog.outputs.skipped == 'false'
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.CHANGELOG_RELEASE }}
+          tag: ${{ steps.changelog.outputs.tag }}
+          name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
