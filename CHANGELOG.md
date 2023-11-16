@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/VoperAD/auto-update-testing/compare/v1.4.0...v1.4.1) (2023-11-16)
+
+
+### Bug Fixes
+
+* remove incorrect inputs and add asset to release step ([0944e0d](https://github.com/VoperAD/auto-update-testing/commit/0944e0d0b3d2ebf83eb90a3399db0df26167eb7b))
+
+
+
 # [1.4.0](https://github.com/VoperAD/auto-update-testing/compare/v1.3.1...v1.4.0) (2023-11-16)
 
 
@@ -50,15 +59,6 @@
 * add a kill listener to double mob drops ([55440f3](https://github.com/VoperAD/auto-update-testing/commit/55440f3d2ff4e7eeb4b1159a8e5d1ccf3c02cc2a))
 * add release workflow ([9a368b7](https://github.com/VoperAD/auto-update-testing/commit/9a368b72ca86a85af8ec2bdd3c6fd3987bdf115c))
 * add write permission for contents ([f7b19d5](https://github.com/VoperAD/auto-update-testing/commit/f7b19d56d520c3a13df137a86937d42a6b016320))
-
-
-
-# [1.1.0](https://github.com/VoperAD/auto-update-testing/compare/v1.0.0...v1.1.0) (2023-11-11)
-
-
-### Features
-
-* add release workflow ([a5fb108](https://github.com/VoperAD/auto-update-testing/commit/a5fb1083a6bccb327ed358536bae7e5a0d78f1a4))
 
 
 
