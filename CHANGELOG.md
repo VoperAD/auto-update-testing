@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/VoperAD/auto-update-testing/compare/v1.6.1...v1.7.0) (2023-11-17)
+
+
+### Features
+
+* update AutoUpdateTest.java ([#2](https://github.com/VoperAD/auto-update-testing/issues/2)) ([14bd034](https://github.com/VoperAD/auto-update-testing/commit/14bd03421490911ff627c97b9c7b1f3288627b0b))
+
+
+
 ## [1.6.1](https://github.com/VoperAD/auto-update-testing/compare/v1.6.0...v1.6.1) (2023-11-17)
 
 
@@ -37,15 +46,6 @@
 ### Bug Fixes
 
 * remove incorrect inputs and add asset to release step ([0944e0d](https://github.com/VoperAD/auto-update-testing/commit/0944e0d0b3d2ebf83eb90a3399db0df26167eb7b))
-
-
-
-# [1.4.0](https://github.com/VoperAD/auto-update-testing/compare/v1.3.1...v1.4.0) (2023-11-16)
-
-
-### Features
-
-* add release logic to the release workflow ([0717407](https://github.com/VoperAD/auto-update-testing/commit/0717407da9eb87ca60b2fe8d25947a216b177981))
 
 
 
