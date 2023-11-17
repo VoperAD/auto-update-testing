@@ -1,3 +1,13 @@
+## [1.6.1](https://github.com/VoperAD/auto-update-testing/compare/v1.6.0...v1.6.1) (2023-11-17)
+
+
+### Bug Fixes
+
+* undo the last changes ([2edf940](https://github.com/VoperAD/auto-update-testing/commit/2edf940d526664c007989920568372b533413db5))
+* update release workflow logic ([d545c69](https://github.com/VoperAD/auto-update-testing/commit/d545c69727a69b3ee92f542c3b6eb5bd2080d76c))
+
+
+
 # [1.6.0](https://github.com/VoperAD/auto-update-testing/compare/v1.5.0...v1.6.0) (2023-11-17)
 
 
@@ -36,15 +46,6 @@
 ### Features
 
 * add release logic to the release workflow ([0717407](https://github.com/VoperAD/auto-update-testing/commit/0717407da9eb87ca60b2fe8d25947a216b177981))
-
-
-
-## [1.3.1](https://github.com/VoperAD/auto-update-testing/compare/v1.3.0...v1.3.1) (2023-11-16)
-
-
-### Bug Fixes
-
-* add git push at the end of the release action ([b95d954](https://github.com/VoperAD/auto-update-testing/commit/b95d95409eb5f49782f12e4c5df7d1ba9b0d7045))
 
 
 
