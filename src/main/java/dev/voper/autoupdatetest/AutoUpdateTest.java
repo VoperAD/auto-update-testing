@@ -10,6 +10,7 @@ public final class AutoUpdateTest extends JavaPlugin {
         System.out.println("This is the version 1.1.0");
         AutoUpdater autoUpdater = new AutoUpdater(this, this.getFile());
         new Thread(autoUpdater).start();
+        System.out.println("A random message");
     }
 
     @Override
