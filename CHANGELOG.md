@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/VoperAD/auto-update-testing/compare/v1.5.0...v1.6.0) (2023-11-17)
+
+
+### Features
+
+* add an additional condition in the release workflow ([0f822f4](https://github.com/VoperAD/auto-update-testing/commit/0f822f4199cf3da268ed2549f080c11b74d61b41))
+
+
+
 # [1.5.0](https://github.com/VoperAD/auto-update-testing/compare/v1.4.1...v1.5.0) (2023-11-17)
 
 
@@ -36,23 +45,6 @@
 ### Bug Fixes
 
 * add git push at the end of the release action ([b95d954](https://github.com/VoperAD/auto-update-testing/commit/b95d95409eb5f49782f12e4c5df7d1ba9b0d7045))
-
-
-
-# [1.3.0](https://github.com/VoperAD/auto-update-testing/compare/v1.2.0...v1.3.0) (2023-11-16)
-
-
-### Bug Fixes
-
-* downgrade project version ([814a1f4](https://github.com/VoperAD/auto-update-testing/commit/814a1f4927968b59e114b670a04e1a532153cb46))
-
-
-### Features
-
-* add versions maven plugin dependency ([48ad108](https://github.com/VoperAD/auto-update-testing/commit/48ad1089b3c16c6b2ab4c9f8297214cafc78fcd7))
-* another random feature ([3533bd8](https://github.com/VoperAD/auto-update-testing/commit/3533bd864880edba3451314073757b1074442186))
-* improve release workflow ([fae7629](https://github.com/VoperAD/auto-update-testing/commit/fae7629b814d4990c111432af28febcb1c6cef80))
-* random feature ([3ada4aa](https://github.com/VoperAD/auto-update-testing/commit/3ada4aa501d900a64276d0d92b361335b514e6c0))
 
 
 
