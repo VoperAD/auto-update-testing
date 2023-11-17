@@ -1,6 +1,6 @@
 name: Release
 on:
-  worfkflow_run:
+  workflow_run:
     workflows: [Java CI]
     types: [completed]
 
