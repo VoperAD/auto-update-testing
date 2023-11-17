@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/VoperAD/auto-update-testing/compare/v1.4.1...v1.5.0) (2023-11-17)
+
+
+### Bug Fixes
+
+* typo in release.yml ([7865eab](https://github.com/VoperAD/auto-update-testing/commit/7865eab464233f70f38fc0c193172a3985087ca9))
+
+
+### Features
+
+* change release workflow trigger and run order between the workflows ([f99fc45](https://github.com/VoperAD/auto-update-testing/commit/f99fc45fd23a38a9bc7a9e98091f1c8cefc6c176))
+
+
+
 ## [1.4.1](https://github.com/VoperAD/auto-update-testing/compare/v1.4.0...v1.4.1) (2023-11-16)
 
 
@@ -39,26 +53,6 @@
 * another random feature ([3533bd8](https://github.com/VoperAD/auto-update-testing/commit/3533bd864880edba3451314073757b1074442186))
 * improve release workflow ([fae7629](https://github.com/VoperAD/auto-update-testing/commit/fae7629b814d4990c111432af28febcb1c6cef80))
 * random feature ([3ada4aa](https://github.com/VoperAD/auto-update-testing/commit/3ada4aa501d900a64276d0d92b361335b514e6c0))
-
-
-
-# [1.2.0](https://github.com/VoperAD/auto-update-testing/compare/v1.1.0...v1.2.0) (2023-11-16)
-
-
-### Bug Fixes
-
-* change conditional statement ([bd0c328](https://github.com/VoperAD/auto-update-testing/commit/bd0c3284a57e7409904b212be2ca7445c44f3990))
-* correct formatting ([f908653](https://github.com/VoperAD/auto-update-testing/commit/f908653b1a503b6ee043755746cf67021a7a5161))
-* move condition to the stop of the step ([2f9df1c](https://github.com/VoperAD/auto-update-testing/commit/2f9df1cbff28a632abc77e1232ed963c72f7884c))
-* move negation in the release action ([2dc8e54](https://github.com/VoperAD/auto-update-testing/commit/2dc8e540b8e46859b249c944b397be9c8a832d28))
-* try to correct the formatting ([c944fdc](https://github.com/VoperAD/auto-update-testing/commit/c944fdc3c1330730d01dc82a554b30b19ac52573))
-
-
-### Features
-
-* add a kill listener to double mob drops ([55440f3](https://github.com/VoperAD/auto-update-testing/commit/55440f3d2ff4e7eeb4b1159a8e5d1ccf3c02cc2a))
-* add release workflow ([9a368b7](https://github.com/VoperAD/auto-update-testing/commit/9a368b72ca86a85af8ec2bdd3c6fd3987bdf115c))
-* add write permission for contents ([f7b19d5](https://github.com/VoperAD/auto-update-testing/commit/f7b19d56d520c3a13df137a86937d42a6b016320))
 
 
 
