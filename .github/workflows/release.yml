@@ -35,7 +35,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           skip-version-file: true
-          skip-commit: true
           skip-tag: true
           git-push: false
 
@@ -44,9 +43,7 @@ jobs:
         run: |
           mvn versions:set -DnewVersion=${{ steps.changelog.outputs.version }}
           mvn versions:commit
-          git config --global user.name 'VoperAD'
-          git config --global user.email 'VoperAD@users.noreply.github.com'
-          git commit -am "chore(release): version ${{ steps.changelog.outputs.tag }} [skip ci]"
+          git commit -am "chore(release): bump pom.xml version to ${{ steps.changelog.outputs.tag }} [skip ci]"
           git tag -a ${{ steps.changelog.outputs.tag }} -m "${{ steps.changelog.outputs.tag }}"
           git push origin main --follow-tags
 
