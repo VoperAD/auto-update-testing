@@ -37,15 +37,15 @@ jobs:
           skip-version-file: true
           pre-commit: './bump-script.js'
 
-      - name: Update pom.xml version
-        if: steps.changelog.outputs.skipped == 'false'
-        run: |
-          mvn versions:set -DnewVersion=${{ steps.changelog.outputs.version }}
-          mvn versions:commit
-          git config --global user.name 'VoperAD'
-          git config --global user.email 'VoperAD@users.noreply.github.com'
-          git commit -am "chore: bump project version to ${{ steps.changelog.outputs.version }} [skip ci]"
-          git push
+#      - name: Update pom.xml version
+#        if: steps.changelog.outputs.skipped == 'false'
+#        run: |
+#          mvn versions:set -DnewVersion=${{ steps.changelog.outputs.version }}
+#          mvn versions:commit
+#          git config --global user.name 'VoperAD'
+#          git config --global user.email 'VoperAD@users.noreply.github.com'
+#          git commit -am "chore: bump project version to ${{ steps.changelog.outputs.version }} [skip ci]"
+#          git push
 
       - name: generate jar
         if: steps.changelog.outputs.skipped == 'false'
