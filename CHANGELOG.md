@@ -1,3 +1,12 @@
+## [1.8.1](https://github.com/VoperAD/auto-update-testing/compare/v1.8.0...v1.8.1) (2023-11-18)
+
+
+### Bug Fixes
+
+* customize release workflow ([b8f3c86](https://github.com/VoperAD/auto-update-testing/commit/b8f3c86fa12513e0ace7835e41395b02c65b6506))
+
+
+
 # [1.8.0](https://github.com/VoperAD/auto-update-testing/compare/v1.7.0...v1.8.0) (2023-11-18)
 
 
@@ -34,20 +43,6 @@
 ### Features
 
 * add an additional condition in the release workflow ([0f822f4](https://github.com/VoperAD/auto-update-testing/commit/0f822f4199cf3da268ed2549f080c11b74d61b41))
-
-
-
-# [1.5.0](https://github.com/VoperAD/auto-update-testing/compare/v1.4.1...v1.5.0) (2023-11-17)
-
-
-### Bug Fixes
-
-* typo in release.yml ([7865eab](https://github.com/VoperAD/auto-update-testing/commit/7865eab464233f70f38fc0c193172a3985087ca9))
-
-
-### Features
-
-* change release workflow trigger and run order between the workflows ([f99fc45](https://github.com/VoperAD/auto-update-testing/commit/f99fc45fd23a38a9bc7a9e98091f1c8cefc6c176))
 
 
 
