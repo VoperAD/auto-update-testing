@@ -1,9 +1,20 @@
-# [1.7.0](https://github.com/VoperAD/auto-update-testing/compare/v1.6.1...v1.7.0) (2023-11-17)
+# [1.8.0](https://github.com/VoperAD/auto-update-testing/compare/v1.7.0...v1.8.0) (2023-11-18)
 
 
 ### Features
 
-* update AutoUpdateTest.java ([#2](https://github.com/VoperAD/auto-update-testing/issues/2)) ([14bd034](https://github.com/VoperAD/auto-update-testing/commit/14bd03421490911ff627c97b9c7b1f3288627b0b))
+* add a bump script in js ([c44bd19](https://github.com/VoperAD/auto-update-testing/commit/c44bd199964a99ae3ccbc7c1ae3a5879f2dd9a46))
+* implement the bump script ([718fa89](https://github.com/VoperAD/auto-update-testing/commit/718fa897b046eee99c47a6c46e24998da16a5793))
+* let's pretend this is a big and new feature [skip ci] ([1df34a4](https://github.com/VoperAD/auto-update-testing/commit/1df34a433185f44ca8b7ab6f37704dee96a796fa))
+
+
+
+# [1.7.0](https://github.com/VoperAD/auto-update-testing/compare/v1.6.1...v1.7.0) (2023-11-18)
+
+
+### Features
+
+* update AutoUpdateTest.java ([#2](https://github.com/VoperAD/auto-update-testing/issues/2)) ([f2d595d](https://github.com/VoperAD/auto-update-testing/commit/f2d595de1ce0b7c8d71c9347e07b0c9b389f0e48))
 
 
 
@@ -37,15 +48,6 @@
 ### Features
 
 * change release workflow trigger and run order between the workflows ([f99fc45](https://github.com/VoperAD/auto-update-testing/commit/f99fc45fd23a38a9bc7a9e98091f1c8cefc6c176))
-
-
-
-## [1.4.1](https://github.com/VoperAD/auto-update-testing/compare/v1.4.0...v1.4.1) (2023-11-16)
-
-
-### Bug Fixes
-
-* remove incorrect inputs and add asset to release step ([0944e0d](https://github.com/VoperAD/auto-update-testing/commit/0944e0d0b3d2ebf83eb90a3399db0df26167eb7b))
 
 
 
