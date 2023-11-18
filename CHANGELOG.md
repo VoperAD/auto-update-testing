@@ -1,3 +1,12 @@
+## [1.8.2](https://github.com/VoperAD/auto-update-testing/compare/v1.8.1...v1.8.2) (2023-11-18)
+
+
+### Bug Fixes
+
+* remove two unused lines from the release workflow and separate the release in two commits ([793e12e](https://github.com/VoperAD/auto-update-testing/commit/793e12ec54dcbdec3202c0f00bac818cbba6b8f2))
+
+
+
 ## [1.8.1](https://github.com/VoperAD/auto-update-testing/compare/v1.8.0...v1.8.1) (2023-11-18)
 
 
@@ -34,15 +43,6 @@
 
 * undo the last changes ([2edf940](https://github.com/VoperAD/auto-update-testing/commit/2edf940d526664c007989920568372b533413db5))
 * update release workflow logic ([d545c69](https://github.com/VoperAD/auto-update-testing/commit/d545c69727a69b3ee92f542c3b6eb5bd2080d76c))
-
-
-
-# [1.6.0](https://github.com/VoperAD/auto-update-testing/compare/v1.5.0...v1.6.0) (2023-11-17)
-
-
-### Features
-
-* add an additional condition in the release workflow ([0f822f4](https://github.com/VoperAD/auto-update-testing/commit/0f822f4199cf3da268ed2549f080c11b74d61b41))
 
 
 
