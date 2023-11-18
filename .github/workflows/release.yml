@@ -35,17 +35,20 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           skip-version-file: true
-          pre-commit: './bump-script.js'
+          skip-commit: true
+          skip-tag: true
+          git-push: false
 
-#      - name: Update pom.xml version
-#        if: steps.changelog.outputs.skipped == 'false'
-#        run: |
-#          mvn versions:set -DnewVersion=${{ steps.changelog.outputs.version }}
-#          mvn versions:commit
-#          git config --global user.name 'VoperAD'
-#          git config --global user.email 'VoperAD@users.noreply.github.com'
-#          git commit -am "chore: bump project version to ${{ steps.changelog.outputs.version }} [skip ci]"
-#          git push
+      - name: Update pom.xml version
+        if: steps.changelog.outputs.skipped == 'false'
+        run: |
+          mvn versions:set -DnewVersion=${{ steps.changelog.outputs.version }}
+          mvn versions:commit
+          git config --global user.name 'VoperAD'
+          git config --global user.email 'VoperAD@users.noreply.github.com'
+          git commit -am "chore(release): version ${{ steps.changelog.outputs.tag }} [skip ci]"
+          git tag -a ${{ steps.changelog.outputs.tag }} -m "${{ steps.changelog.outputs.tag }}"
+          git push origin main --follow-tags
 
       - name: generate jar
         if: steps.changelog.outputs.skipped == 'false'
