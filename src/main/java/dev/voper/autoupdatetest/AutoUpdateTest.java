@@ -17,6 +17,7 @@ public final class AutoUpdateTest extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
         System.out.println("something another random feature");
+        System.out.println("incredible feature");
         boolean feature = false;
     }
 }
