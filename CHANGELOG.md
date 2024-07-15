@@ -7,6 +7,13 @@
 
 
 
+## [1.10.1](https://github.com/VoperAD/auto-update-testing/compare/v1.10.0...v1.10.1) (2024-07-15)
+
+
+### Bug Fixes
+
+* small fix ([bd64f46](https://github.com/VoperAD/auto-update-testing/commit/bd64f46c399a4afae6fcf8f7af9065f2ed393e31))
+
 ## [1.10.0](https://github.com/VoperAD/auto-update-testing/compare/v1.9.0...v1.10.0) (2024-07-15)
 
 
