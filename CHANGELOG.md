@@ -7,6 +7,14 @@
 
 
 
+## [1.9.0](https://github.com/VoperAD/auto-update-testing/compare/v1.8.2...v1.9.0) (2024-07-15)
+
+
+### Features
+
+* an incredible feature ([e713492](https://github.com/VoperAD/auto-update-testing/commit/e7134922026d50e5245b352a2c56138a1f9928a4))
+* testing release please ([a6c6251](https://github.com/VoperAD/auto-update-testing/commit/a6c6251e2127361810935e7d64029496cf34041c))
+
 ## [1.8.1](https://github.com/VoperAD/auto-update-testing/compare/v1.8.0...v1.8.1) (2023-11-18)
 
 
@@ -43,6 +51,3 @@
 
 * undo the last changes ([2edf940](https://github.com/VoperAD/auto-update-testing/commit/2edf940d526664c007989920568372b533413db5))
 * update release workflow logic ([d545c69](https://github.com/VoperAD/auto-update-testing/commit/d545c69727a69b3ee92f542c3b6eb5bd2080d76c))
-
-
-
