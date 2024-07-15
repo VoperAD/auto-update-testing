@@ -31,6 +31,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
+        if: ${{ steps.release.outputs.release_created }}
         run: mvn clean package
 
       - name: Upload Release Artifact
