@@ -18,3 +18,4 @@ jobs:
           release-type: maven
           fork: false
           skip-github-pull-request: true
+          package-name: AutoUpdateTest
