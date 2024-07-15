@@ -7,6 +7,13 @@
 
 
 
+## [1.10.2](https://github.com/VoperAD/auto-update-testing/compare/v1.10.1...v1.10.2) (2024-07-15)
+
+
+### Bug Fixes
+
+* include v on final jar ([1802959](https://github.com/VoperAD/auto-update-testing/commit/1802959b0421dc98d9eae9541c6904b4b69c42c8))
+
 ## [1.10.1](https://github.com/VoperAD/auto-update-testing/compare/v1.10.0...v1.10.1) (2024-07-15)
 
 
