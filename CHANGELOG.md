@@ -7,6 +7,20 @@
 
 
 
+## [1.10.0](https://github.com/VoperAD/auto-update-testing/compare/v1.9.0...v1.10.0) (2024-07-15)
+
+
+### Features
+
+* add package-name argument ([27f0983](https://github.com/VoperAD/auto-update-testing/commit/27f098390a783d4882cdfdbd5dee9b4c1802dc6c))
+* building and adding jar to release ([1cb1f1c](https://github.com/VoperAD/auto-update-testing/commit/1cb1f1c79ed49e9a7425e7c663ea2cae2cbf14c6))
+
+
+### Bug Fixes
+
+* add condition to Build with Maven step ([abf327e](https://github.com/VoperAD/auto-update-testing/commit/abf327e408087df0a0b347de55dd79fb4b07efa8))
+* skip github PR ([22efd2d](https://github.com/VoperAD/auto-update-testing/commit/22efd2d60e8d26e75800a77105806557a01ecadf))
+
 ## [1.9.0](https://github.com/VoperAD/auto-update-testing/compare/v1.8.2...v1.9.0) (2024-07-15)
 
 
